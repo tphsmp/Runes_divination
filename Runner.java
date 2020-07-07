@@ -5,13 +5,11 @@ package divination;
 public class Runner {
     public static void main(String[] args) {
 
-        RunesMaker makeRunes = new RunesMaker();
-
         RunesList rList = new RunesList();
 
-        makeRunes.makeRunesList(rList);
+        rList.makeRunes(rList);
 
-        rList.mixRunes(1);
+        rList.mixRunes(3);
 
         rList.generateRunes(0, 2);
 
