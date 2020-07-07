@@ -6,11 +6,7 @@ import java.util.List;
 
 public class RunesList extends Runa {
 
-    List<Runa> runesList = new ArrayList<Runa>();
-
-    public int getSize() {
-        return runesList.size();
-    }
+    private List<Runa> runesList = new ArrayList<Runa>();
 
     //добавляем камень в лист
     public void addRunes(Runa runa) {
